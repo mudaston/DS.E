@@ -1,0 +1,33 @@
+:root {
+  --dse-body-text-color: #{$dark};
+
+  --dse-btn-primary-color: #{$white};
+  --dse-btn-primary-bg-color: #{$green};
+  --dse-btn-primary-bg-hover: #{$green-light};
+
+  --dse-fab-primary-text-color: #{$white};
+  --dse-fab-primary-bg-color: #{$electric-indigo};
+  --dse-fab-primary-bg-hover-color: #{lighten($electric-indigo, 8%)};
+  --dse-fab-primary-bg-focus-color: #{lighten($electric-indigo, 12%)};
+  --dse-fab-primary-bg-click-color: #{lighten($electric-indigo, 50%)};
+
+  --dse-fab-secondary-text-color: #{$white};
+  --dse-fab-secondary-bg-color: #{$green-dark};
+  --dse-fab-secondary-bg-hover-color: #{lighten($electric-indigo, 8%)};
+  --dse-fab-secondary-bg-focus-color: #{lighten($electric-indigo, 12%)};
+  --dse-fab-secondary-bg-click-color: #{lighten($electric-indigo, 50%)};
+
+  --dse-form-color: #{$dark};
+  --dse-form-bg-color: #{$white};
+  --dse-error-color: #{$red};
+  --dse-form-error-border-color: #{$red};
+  --dse-border-focus-color: #{$green};
+
+  --dse-app-bar-text-color-light: #{$white};
+  --dse-app-bar-background-color-light: #{$electric-indigo};
+  --dse-app-bar-elevation-color-light: #{$elevation};
+
+  --dse-app-bar-text-color-dark: #{$black-inactive};
+  --dse-app-bar-background-color-dark: #{$white};
+  --dse-app-bar-elevation-color-dark: #{$elevation};
+}

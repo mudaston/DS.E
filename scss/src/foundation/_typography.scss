@@ -1,0 +1,79 @@
+// ========================================= //
+//          Foundation - Typography          //
+// ========================================= //
+
+/**
+ * This file defines the default font sizes to be used on headings
+ * from the palette defined in _variables.scss.
+ */
+
+// ========================================= //
+//              Body font sizes              //
+// ========================================= //
+
+$body-font-size: var(--dse-body-font-size, $fs-sm) !default;
+
+$overline-font-size: var(--dse-overline-font-size, $fs-xxs) !default;
+
+// ========================================= //
+//             Body font weights             //
+// ========================================= //
+
+$body-font-weight: var(--dse-body-font-weight, $fw-regular) !default;
+
+// ========================================= //
+//           Body font line-heights          //
+// ========================================= //
+
+$body-font-line-height-1: var(
+  --dse-body-font-line-height-1,
+  $lh-body-1
+) !default;
+$body-font-line-height-2: var(
+  --dse-body-font-line-height-1,
+  $lh-body-2
+) !default;
+
+// ========================================= //
+//             Heading font sizes            //
+// ========================================= //
+
+$h1-font-size: var(--dse-h1-font-size, $h-1) !default;
+$h2-font-size: var(--dse-h2-font-size, $h-2) !default;
+$h3-font-size: var(--dse-h3-font-size, $h-3) !default;
+$h4-font-size: var(--dse-h4-font-size, $h-4) !default;
+$h5-font-size: var(--dse-h5-font-size, $h-5) !default;
+$h6-font-size: var(--dse-h6-font-size, $h-6) !default;
+
+// ========================================= //
+//            Heading font weights           //
+// ========================================= //
+
+$h1-font-weight: var(--dse-h1-font-weight, $fw-light) !default;
+$h2-font-weight: var(--dse-h2-font-weight, $fw-light) !default;
+$h3-font-weight: var(--dse-h3-font-weight, $fw-regular) !default;
+$h4-font-weight: var(--dse-h4-font-weight, $fw-regular) !default;
+$h5-font-weight: var(--dse-h5-font-weight, $fw-regular) !default;
+$h6-font-weight: var(--dse-h6-font-weight, $fw-medium) !default;
+
+// ========================================= //
+//            Heading line heights           //
+// ========================================= //
+
+$h1-font-line-height: var(--dse-h1-font-line-height, $lh-h-1) !default;
+$h2-font-line-height: var(--dse-h2-font-line-height, $lh-h-2) !default;
+$h3-font-line-height: var(--dse-h3-font-line-height, $lh-h-3) !default;
+$h4-font-line-height: var(--dse-h4-font-line-height, $lh-h-4) !default;
+$h5-font-line-height: var(--dse-h5-font-line-height, $lh-h-5) !default;
+$h6-font-line-height: var(--dse-h6-font-line-height, $lh-h-6) !default;
+
+// ========================================= //
+//           Heaing letter spacing           //
+// ========================================= //
+
+$h1-font-letter-spacing: var(--dse-h1-font-letter-spacing, $ls-body-1) !default;
+$h2-font-letter-spacing: var(--dse-h2-font-letter-spacing, $ls-body-2) !default;
+$h3-font-letter-spacing: var(--dse-h3-font-letter-spacing, $ls-body-3) !default;
+$h4-font-letter-spacing: var(--dse-h4-font-letter-spacing, $ls-body-4) !default;
+$h5-font-letter-spacing: var(--dse-h5-font-letter-spacing, $ls-body-5) !default;
+$h6-font-letter-spacing: var(--dse-h6-font-letter-spacing, $ls-body-6) !default;

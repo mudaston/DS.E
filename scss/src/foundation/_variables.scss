@@ -1,0 +1,182 @@
+/** 
+ * TABLE OF CONTENTS
+ *
+ *
+ * COLORS
+ * Brand colors...................These are the main brand colors. They will be used the most.
+ * Neutral colors.................White and black, gray scale, secondary colors.
+ * Utility colors.................Other colors to represent state: info, warning, success, etc.
+ *
+ *
+ * TYPOGRAPHY
+ * Font families..................The fonts used in the design system.
+ * Font sizes.....................Sizing for body text, paragraphs, inputs.
+ * Font weights...................Font weights.
+ * Heading font sizes............ Sizing for page headings
+ * Heading line heights...........Line heights for headings.
+ * Heading letter spacing.........Letter spacing for headings.
+ * Body line heights..............Line heights for body text, paragraphs.
+ * Body letter spacing............Letter spacing for body text, paragraphs, etc.
+ * Subtitles line heights.........Line heights for subtitles.
+ * Captions line heights..........Line heights for captions.
+ * Subtitle letter spacing........Letter spacing for subtitles.
+ * Subtitle letter spacing........Letter spacing for subtitles.
+ * Buttons letter spacing.........Letter spacing for buttons.
+ *
+ *
+ * BREAKPOINTS
+ * Breakpoints....................Global responsive breakpoints definitions.
+ * 
+ * 
+ * SPACING
+ * Spacing........................Global fixed set of spacing variables.
+ */
+
+// ========================================= //
+//                   Colors                  //
+// ========================================= //
+
+/* Brand colors */
+$green: #5ece7b;
+$green-dark: #01a39d;
+$green-light: #9ee2b0;
+
+$dark: #1d1f22;
+$dark-light: #737680;
+
+$electric-indigo: #6202ee;
+
+/* Neutral colors */
+$gray: #a3a5ad;
+$gray-light: #bebfc4;
+
+$white: #fff;
+$white-dark: #f1f2f3;
+
+$black-inactive: rgba(0, 0, 0, 0.541);
+$elevation: rgba(0, 0, 0, 0.122);
+
+/* Utility colors */
+$red: #d12727;
+$red-light: #f8dedf;
+
+$blue: #0468db;
+$blue-light: #b4d2f4;
+
+// ========================================= //
+//                 Typography                //
+// ========================================= //
+
+/** 
+ *
+ *  1) The playfair font. We'll use this for headings mostly.
+ *      https://fonts.google.com/specimen/Playfair+Display
+ *  
+ *  2) The raleway font. We'll use this for the body text.
+ *      https://fonts.google.com/specimen/Raleway
+ *
+ */
+
+/* Font families */
+$playfair: "Playfair", serif; /* 1 */
+$raleway: "Raleway", "HelveticaNeue", "Helvetica", "Arial", sans-serif; /* 2 */
+
+/* Font sizes */
+$fs-xxs: 0.625rem; // 10px
+$fs-xs: 0.75rem; // 12px
+$fs-sm: 0.875rem; // 14px
+$fs-base: 1rem; // 16px
+$fs-lg: 1.125rem; // 18px
+$fs-xl: 1.5rem; // 24px
+
+/* Font weights */
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+$fw-extrabold: 800;
+$fw-black: 900;
+
+/* Heading font sizes */
+$h-1: 1.375rem; // 22px
+$h-2: 1.375rem; // 22px
+$h-3: 1rem; // 16px
+$h-4: 1.125rem; // 18px
+$h-5: 0.75rem; // 12px
+$h-6: 0.75rem; // 12px
+
+/* Heading line heights */
+$lh-h-1: 9rem; // 144px
+$lh-h-2: 5.625rem; // 90px
+$lh-h-3: 4.5rem; // 72px
+$lh-h-4: 3.1875rem; // 51px
+$lh-h-5: 2.25rem; // 36px
+$lh-h-6: 1.875rem; // 30px
+
+/* Heading letter spacing */
+$ls-h-1: -1.5px;
+$ls-h-2: -0.5px;
+$ls-h-3: 0;
+$ls-h-4: 0.25px;
+$ls-h-5: 0;
+$ls-h-6: 0.25px;
+
+/* Body line heights */
+$lh-body-1: 1.5rem; // 24px
+$lh-body-2: 1.3125rem; // 21px
+
+/* Body letter spacing */
+$ls-body-1: 0.5px;
+$ls-body-2: 0.25px;
+
+/* Subtitles line heights */
+$lh-subtitle-1: 1.5rem; // 24px
+$lh-subtitle-2: 1.3125rem; // 21px
+
+/* Captions line heights */
+$lh-caption: 1.125rem; // 18px
+
+/* Subtitle letter spacing */
+$ls-subtitle-1: 0.15px;
+$ls-subtitle-1: 0.1px;
+
+/* Buttons letter spacing */
+$ls-button: 1.25px;
+
+// ========================================= //
+//                BREAKPOINTS                //
+// ========================================= //
+
+$breakpoints: (
+  md: 48rem,
+  // 768px
+  lg: 64rem,
+  // 1024px
+  xl: 80rem // 1280px,,,
+);
+
+// ========================================= //
+//                  SPACING                  //
+// ========================================= //
+
+$spacing: (
+  xxxs: 0.25rem,
+  // 4px
+  xxs: 0.5rem,
+  // 8px
+  xs: 0.75rem,
+  // 12px
+  sm: 1rem,
+  // 16px
+  md: 1.5rem,
+  // 24px
+  lg: 2rem,
+  // 32px
+  xl: 3rem,
+  // 48px
+  xxl: 4.5rem,
+  // 72px
+  xxxl: 6rem,
+  // 96px
+) !default;
