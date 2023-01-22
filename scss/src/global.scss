@@ -10,3 +10,21 @@
 
 @import 'base/reset';
 @import 'base/root';
+
+@each $key, $value in $spacing {
+	.dse-margin-top-#{$key} {
+		margin-top: $value;
+	}
+
+	.dse-margin-right-#{$key} {
+		margin-right: $value;
+	}
+
+	.dse-margin-bottom-#{$key} {
+		margin-bottom: $value;
+	}
+
+	.dse-margin-left-#{$key} {
+		margin-left: $value;
+	}
+}
